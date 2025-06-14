@@ -1,0 +1,28 @@
+Body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  align-items: center;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #000;
+}
